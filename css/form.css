@@ -1,0 +1,26 @@
+/* aqui será os estilos do meu site para o formulário */
+
+/* ESTUDAR MAIS SOBRE CSS DEPOIS */
+
+.paragrafo-um {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.titulo-um {
+    color: red;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: black;
+}
+
+.imagem {
+    height: 500px;
+    width: 725px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

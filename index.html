@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <!--Metas Necessárias para aprendizado-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <title>Aprendendo HTML</title>
+    </head>
+<body>
+    <header>
+        <!--Aqui temos o cabeçalho com algumas infomrações de aprendizado-->
+        <h1 id="cabeçalho"> cabeçalho </h1>
+        <!--Esse é um container com uma lista, além dessa há outras também mas essa é a mais usada -->
+        <div class="container">
+            <ul style="list-style-type: square;">
+                <li><a class="navlink" href="www.inicio.com">Início</a></li>
+                <li>Sobre Nós</li>
+                <li>Blog</li>
+                <li>Produtos</li>
+                <li>Contato</li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <!-- Como colocar imagem que já está no PC na pasta "img"-->
+        <img src="img/celular.png.PNG">
+        <!-- Como colocar imagem que está na internet por meio de link-->
+        <img src="https://www.sonhos.club/wp-content/uploads/2018/04/sonhar-com-gato.jpg">
+        <!--Como fazer uma tabela igual aquelas do Pacote Office-->
+        <table>
+            <tr>
+                <td>Produto</td>
+                <td>Valor</td>
+            </tr>
+            <tr> 
+                <td>Feijão</td>
+                <td>R$ 3,50</td>
+            </tr>
+        </table>
+        <iframe src="file:///C:/Users/Misae/OneDrive/%C3%81rea%20de%20Trabalho/Pastas%20Importantes/Web%20Dev/SOS%20Did%C3%A1tico/index.html"></iframe>
+        <p> 
+            Parágrafo principal do texto <br>
+            Para salvar o um texto, pressione <kbd>Ctrl + S</kbd>
+        </p>
+        <p>
+            Escreva o trecho a seguir <code>x= 1+2;</code>
+        </p>
+        <p>
+            Pricípio da relataividade: <var>E</var> <var>mc</var><sup>2</sup>.
+        </p>
+    </main>
+    <footer>
+        <p class="parte-rodape">Rodapé do site <br>
+        </p>
+        <h3> Formulário de loguin:</h3>
+        <form action="Form.html">
+            <fieldset><legend>Dados pessoais:</legend>
+                 Nome: <input type="text"> <br>
+                 login: <input type="text"> <br>
+                 Senha: <input type="password"> <br>
+                 Sexo: <select>
+                         <option>Feminino</option>
+                         <option>Masculino</option>
+                       </select> <br>
+                 Bio: <textarea></textarea> <br>       
+                 <input type="reset" value="Limpar"> <br>
+                 <input type="submit" value="Enviar"> <br>
+            </fieldset>
+      </form>
+      <a href=”https://www.facebook.com/”>
+        Acesse agora o Facebook</a>
+    </footer>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
